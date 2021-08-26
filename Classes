@@ -1,0 +1,10 @@
+class Pies:
+    def __init__(self, imie, rasa):
+        self.imie = imie
+        self. rasa = rasa
+
+Pies1 = Pies("Amcio", 'amstaff')
+Pies2 = Pies("Benek", 'kundel')
+
+print(Pies1.imie, Pies1.rasa)
+print(Pies2.imie, Pies2.rasa)
